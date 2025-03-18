@@ -1,6 +1,6 @@
 @echo off
 chcp 65001
-title jzo2o-gateway
+title zhilian-gateway
 echo.
 echo [信息] 打包网关工程。
 echo.
