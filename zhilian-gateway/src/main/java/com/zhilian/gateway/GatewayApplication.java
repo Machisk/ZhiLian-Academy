@@ -12,6 +12,6 @@ public class GatewayApplication {
         new SpringApplicationBuilder(GatewayApplication.class)
                 .build(args)
                 .run(args);
-        log.info("家政o2o-网关服务启动");
+        log.info("智联学堂-网关服务启动");
     }
 }
