@@ -4,86 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3bedd69c-6a14-47ec-831d-4d59dbcec99c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhilian/api/customer/CommonUserApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhilian/api/customer/CustomerApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhilian/api/customer/EvaluationApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhilian/api/customer/InstitutionApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhilian/api/customer/InstitutionStaffApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhilian/api/customer/ServeProviderApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhilian/api/customer/ServeSkillApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhilian/api/customer/dto/InstitutionUserPageDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhilian/api/customer/dto/InstitutionUserPageQueryDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhilian/api/customer/dto/request/CommonUserPageQueryReqDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhilian/api/customer/dto/request/CommonUserUpdateReqDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhilian/api/customer/dto/request/EvaluationSubmitReqDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhilian/api/customer/dto/request/InstitutionStaffAddReqDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhilian/api/customer/dto/request/InstitutionStaffPageQueryReqDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhilian/api/customer/dto/request/ScoreItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhilian/api/customer/dto/request/ServerProviderUpdateStatusReqDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhilian/api/customer/dto/response/AddressBookResDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhilian/api/customer/dto/response/CommonUserResDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhilian/api/customer/dto/response/EvaluationScoreResDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhilian/api/customer/dto/response/InstitutionStaffResDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhilian/api/customer/dto/response/ServeProviderResDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhilian/api/customer/dto/response/ServeProviderSimpleResDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhilian/api/foundations/RegionApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhilian/api/foundations/ServeApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhilian/api/foundations/ServeItemApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhilian/api/foundations/ServeTypeApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhilian/api/foundations/dto/ServeItemSimpleDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhilian/api/foundations/dto/request/RegionBusinessSettingReqDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhilian/api/foundations/dto/response/ConfigRegionInnerResDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhilian/api/foundations/dto/response/RegionServeInfoResDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhilian/api/foundations/dto/response/RegionSimpleResDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhilian/api/foundations/dto/response/ServeAggregationResDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhilian/api/foundations/dto/response/ServeItemResDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhilian/api/foundations/dto/response/ServeItemSimpleResDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhilian/api/foundations/dto/response/ServeTypeCategoryResDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhilian/api/foundations/dto/response/ServeTypeSimpleResDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhilian/api/market/dto/request/CouponUseBackReqDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhilian/api/market/dto/request/CouponUseReqDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhilian/api/market/dto/response/AvailableCouponsResDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhilian/api/market/dto/response/CouponUseResDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhilian/api/operation/utils/RegionUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhilian/api/orders/OrdersApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhilian/api/orders/OrdersHistoryApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhilian/api/orders/OrdersSeizeApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhilian/api/orders/OrdersServeApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhilian/api/orders/dto/request/OrderCancelReqDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhilian/api/orders/dto/request/OrderPageQueryReqDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhilian/api/orders/dto/request/OrderSeizeReqDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhilian/api/orders/dto/response/InstitutionStaffServeCountResDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhilian/api/orders/dto/response/OrderAggregationResDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhilian/api/orders/dto/response/OrderResDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhilian/api/orders/dto/response/OrderSimpleResDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhilian/api/orders/dto/response/ServeProviderIdResDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhilian/api/publics/MapApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhilian/api/publics/SmsCodeApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhilian/api/publics/WechatApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhilian/api/publics/dto/response/BooleanResDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhilian/api/publics/dto/response/LocationResDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhilian/api/publics/dto/response/OpenIdResDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhilian/api/publics/dto/response/PhoneResDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhilian/api/trade/NativePayApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhilian/api/trade/RefundRecordApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhilian/api/trade/TradingApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhilian/api/trade/dto/request/NativePayReqDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhilian/api/trade/dto/response/ExecutionResultResDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhilian/api/trade/dto/response/NativePayResDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhilian/api/trade/dto/response/TradingResDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhilian/api/trade/enums/PayChannelEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhilian/api/trade/enums/RefundStatusEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhilian/api/trade/enums/TradingStateEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhilian/config/ClientScanConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhilian/interceptor/FeignInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhilian/utils/MyQueryMapEncoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/spring.factories" afterDir="false" />
+    <list default="true" id="3bedd69c-6a14-47ec-831d-4d59dbcec99c" name="Changes" comment="创建api工程">
+      <change afterPath="$PROJECT_DIR$/../zhilian-foundations/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zhilian-foundations/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zhilian-foundations/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,19 +19,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RESET_MODE" value="SOFT" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Machisk"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Machisk&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "git@github.com:Machisk/ZhiLian-Academy.git",
-    "accountId": "36215fbd-7e9b-4c1a-8956-abd16e088de6"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:Machisk/ZhiLian-Academy.git&quot;,
+    &quot;accountId&quot;: &quot;36215fbd-7e9b-4c1a-8956-abd16e088de6&quot;
   }
-}]]></component>
+}</component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -125,9 +53,9 @@
     <option name="jreName" value="22" />
     <option name="skipTests" value="true" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2uTOa0kgQfaP11Dcn297h3xDQzQ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -135,6 +63,9 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Maven.zhilian-api [clean].executor": "Run",
+    "Maven.zhilian-api [install].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
@@ -145,8 +76,8 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.proportion": "0.13967973",
+    "project.structure.side.proportion": "0.29089028",
     "settings.editor.selected.configurable": "MavenSettings",
     "vue.rearranger.settings.migration": "true"
   }
@@ -172,11 +103,74 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1742269156690</updated>
-      <workItem from="1742269157747" duration="521000" />
+      <workItem from="1742269157747" duration="1377000" />
+      <workItem from="1742271437897" duration="112000" />
     </task>
+    <task id="LOCAL-00001" summary="重构zhilian-common包，增加机构角色">
+      <option name="closed" value="true" />
+      <created>1742270171932</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1742270171932</updated>
+    </task>
+    <task id="LOCAL-00002" summary="创建api工程">
+      <option name="closed" value="true" />
+      <created>1742270195491</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1742270195491</updated>
+    </task>
+    <task id="LOCAL-00003" summary="重构zhilian-common包，添加机构角色">
+      <option name="closed" value="true" />
+      <created>1742270410473</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1742270410473</updated>
+    </task>
+    <task id="LOCAL-00004" summary="创建api工程">
+      <option name="closed" value="true" />
+      <created>1742270436991</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1742270436991</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="重构zhilian-common包，增加机构角色" />
+    <MESSAGE value="重构zhilian-common包，添加机构角色" />
+    <MESSAGE value="创建api工程" />
+    <option name="LAST_COMMIT_MESSAGE" value="创建api工程" />
   </component>
 </project>
