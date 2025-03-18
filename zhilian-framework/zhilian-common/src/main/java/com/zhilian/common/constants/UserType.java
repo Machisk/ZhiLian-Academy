@@ -13,6 +13,11 @@ public class UserType {
     public static final int WORKER = 2;
 
     /**
+     * 机构
+     */
+    public static final int INSTITUTION = 3;
+
+    /**
      * 运营人员
      */
     public static final int OPERATION = 4;
