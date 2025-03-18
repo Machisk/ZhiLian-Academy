@@ -1,0 +1,16 @@
+com\zhilian\statemachine\mapper\StateMachineMapper.class
+com\zhilian\statemachine\model\BizSnapshot.class
+com\zhilian\statemachine\core\StateMachineSnapshot.class
+com\zhilian\statemachine\model\BizSnapshot$BizSnapshotBuilder.class
+com\zhilian\statemachine\model\StatePersister.class
+com\zhilian\statemachine\core\StatusChangeEvent.class
+com\zhilian\statemachine\core\StatusChangeHandler.class
+com\zhilian\statemachine\mapper\BizSnapshotMapper.class
+com\zhilian\statemachine\AbstractStateMachine.class
+com\zhilian\statemachine\snapshot\BizSnapshotService.class
+com\zhilian\statemachine\model\StatePersister$StatePersisterBuilder.class
+com\zhilian\statemachine\core\StatusDefine.class
+com\zhilian\statemachine\persist\StateMachinePersister.class
+com\zhilian\statemachine\persist\StateMachinePersisterImpl.class
+com\zhilian\statemachine\snapshot\BizSnapshotServiceImpl.class
+com\zhilian\statemachine\config\StateConfiguration.class

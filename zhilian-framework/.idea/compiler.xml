@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="zhilian-thirdparty" />
+        <module name="zhilian-mysql" />
+        <module name="zhilian-redis" />
+        <module name="zhilian-xxl-job" />
+        <module name="zhilian-es" />
+        <module name="zhilian-sentinel" />
+        <module name="zhilian-mvc" />
+        <module name="zhilian-seata" />
+        <module name="zhilian-statemachine" />
+        <module name="zhilian-canal-sync" />
+        <module name="zhilian-rabbitmq" />
+        <module name="zhilian-common" />
+        <module name="zhilian-shardingsphere-jdbc" />
+        <module name="zhilian-knife4j-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="22" />
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="zhilian-canal-sync" options="-parameters" />
+      <module name="zhilian-common" options="-parameters" />
+      <module name="zhilian-es" options="-parameters" />
+      <module name="zhilian-knife4j-web" options="-parameters" />
+      <module name="zhilian-mvc" options="-parameters" />
+      <module name="zhilian-mysql" options="-parameters" />
+      <module name="zhilian-rabbitmq" options="-parameters" />
+      <module name="zhilian-redis" options="-parameters" />
+      <module name="zhilian-seata" options="-parameters" />
+      <module name="zhilian-sentinel" options="-parameters" />
+      <module name="zhilian-shardingsphere-jdbc" options="-parameters" />
+      <module name="zhilian-statemachine" options="-parameters" />
+      <module name="zhilian-thirdparty" options="-parameters" />
+      <module name="zhilian-xxl-job" options="-parameters" />
+    </option>
+  </component>
+</project>

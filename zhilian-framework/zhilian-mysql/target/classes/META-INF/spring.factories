@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+ com.zhilian.mysql.config.MybatisPlusConfiguration,\
+ com.zhilian.mysql.config.PageHelperConfiguration

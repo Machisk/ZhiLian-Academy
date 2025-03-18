@@ -1,0 +1,5 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.zhilian.mvc.config.FilterConfiguration, \
+  com.zhilian.mvc.config.JsonConfig, \
+  com.zhilian.mvc.config.MvcConfig, \
+com.zhilian.mvc.config.AutoConfiguration

@@ -1,0 +1,7 @@
+com\zhilian\canal\constants\FieldConstants.class
+com\zhilian\canal\constants\OperateType.class
+com\zhilian\canal\listeners\AbstractCanalRabbitMqMsgListener.class
+com\zhilian\canal\model\dto\CanalBaseDTO$CanalBaseDTOBuilder.class
+com\zhilian\canal\model\dto\CanalBaseDTO.class
+com\zhilian\canal\core\CanalDataHandler.class
+com\zhilian\canal\model\CanalMqInfo.class

@@ -1,0 +1,16 @@
+com\zhilian\rabbitmq\dao\impl\FailMsgDaoImpl.class
+com\zhilian\rabbitmq\domain\ErrorRabbitMqMessage.class
+com\zhilian\rabbitmq\client\RabbitClient.class
+com\zhilian\rabbitmq\properties\RabbitmqProperties$Error.class
+com\zhilian\rabbitmq\domain\FailMsg.class
+com\zhilian\rabbitmq\config\RabbitMqConfiguration$1.class
+com\zhilian\rabbitmq\config\RabbitMqConfiguration.class
+com\zhilian\rabbitmq\plugins\RabbitMqListenableFutureCallback.class
+com\zhilian\rabbitmq\dao\FailMsgDao.class
+com\zhilian\rabbitmq\domain\FailMsg$FailMsgBuilder.class
+com\zhilian\rabbitmq\properties\RabbitmqProperties.class
+com\zhilian\rabbitmq\plugins\DelayMessagePostProcessor.class
+com\zhilian\rabbitmq\plugins\ErrorMessageRecoverer.class
+com\zhilian\rabbitmq\plugins\RabbitMqListenableFutureCallback$RabbitMqListenableFutureCallbackBuilder.class
+com\zhilian\rabbitmq\plugins\RabbitMqResender.class
+com\zhilian\rabbitmq\dao\mapper\FailMsgMapper.class
