@@ -4,6 +4,7 @@ package com.zhilian.foundations.controller.inner;
 import cn.hutool.core.bean.BeanUtil;
 import com.zhilian.api.foundations.ServeTypeApi;
 import com.zhilian.api.foundations.dto.response.ServeTypeSimpleResDTO;
+import com.zhilian.foundations.enums.FoundationStatusEnum;
 import com.zhilian.foundations.service.IServeTypeService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;

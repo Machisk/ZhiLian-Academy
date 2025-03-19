@@ -95,4 +95,5 @@ public interface IServeService extends IService<Serve> {
      * @return 区域服务信息
      */
     Serve queryServeByIdCache(Long id);
+
 }

@@ -10,12 +10,8 @@ import com.zhilian.common.expcetions.ForbiddenOperationException;
 import com.zhilian.common.model.PageResult;
 import com.zhilian.foundations.constants.RedisConstants;
 import com.zhilian.foundations.enums.FoundationStatusEnum;
-import com.zhilian.foundations.mapper.RegionMapper;
-import com.zhilian.foundations.mapper.ServeItemMapper;
-import com.zhilian.foundations.mapper.ServeMapper;
-import com.zhilian.foundations.model.domain.Region;
-import com.zhilian.foundations.model.domain.Serve;
-import com.zhilian.foundations.model.domain.ServeItem;
+import com.zhilian.foundations.mapper.*;
+import com.zhilian.foundations.model.domain.*;
 import com.zhilian.foundations.model.dto.request.ServePageQueryReqDTO;
 import com.zhilian.foundations.model.dto.request.ServeUpsertReqDTO;
 import com.zhilian.foundations.model.dto.response.ServeResDTO;
@@ -45,6 +41,12 @@ public class ServeServiceImpl extends ServiceImpl<ServeMapper, Serve> implements
 
     @Resource
     private RegionMapper regionMapper;
+
+    @Resource
+    private ServeTypeMapper serveTypeMapper;
+
+    @Resource
+    private ServeSyncMapper serveSyncMapper;
 
     /**
      * 分页查询
@@ -146,6 +148,8 @@ public class ServeServiceImpl extends ServiceImpl<ServeMapper, Serve> implements
                 .eq(Serve::getId, id)
                 .set(Serve::getSaleStatus, FoundationStatusEnum.ENABLE.getStatus());
         update(updateWrapper);
+        //添加同步表
+        addServeSync(id);
         return baseMapper.selectById(id);
 
     }
@@ -169,6 +173,8 @@ public class ServeServiceImpl extends ServiceImpl<ServeMapper, Serve> implements
                 .eq(Serve::getId, id)
                 .set(Serve::getSaleStatus, FoundationStatusEnum.DISABLE.getStatus());
         update(updateWrapper);
+        // 删除同步表的数据
+        serveSyncMapper.deleteById(id);
         return baseMapper.selectById(id);
     }
 
@@ -219,9 +225,46 @@ public class ServeServiceImpl extends ServiceImpl<ServeMapper, Serve> implements
         return baseMapper.selectCount(queryWrapper);
     }
 
-    @Cacheable(value = RedisConstants.CacheName.SERVE , key = "#id")
-    @Override
+    @Cacheable(value = RedisConstants.CacheName.SERVE,key = "#id", cacheManager = RedisConstants.CacheManager.ONE_DAY)
     public Serve queryServeByIdCache(Long id) {
         return getById(id);
     }
+
+    /**
+     * 新增服务同步数据
+     *
+     * @param serveId 服务id
+     */
+    private void addServeSync(Long serveId) {
+        //服务信息
+        Serve serve = baseMapper.selectById(serveId);
+        //区域信息
+        Region region = regionMapper.selectById(serve.getRegionId());
+        //服务项信息
+        ServeItem serveItem = serveItemMapper.selectById(serve.getServeItemId());
+        //服务类型
+        ServeType serveType = serveTypeMapper.selectById(serveItem.getServeTypeId());
+
+        ServeSync serveSync = new ServeSync();
+        serveSync.setServeTypeId(serveType.getId());
+        serveSync.setServeTypeName(serveType.getName());
+        serveSync.setServeTypeIcon(serveType.getServeTypeIcon());
+        serveSync.setServeTypeImg(serveType.getImg());
+        serveSync.setServeTypeSortNum(serveType.getSortNum());
+
+        serveSync.setServeItemId(serveItem.getId());
+        serveSync.setServeItemIcon(serveItem.getServeItemIcon());
+        serveSync.setServeItemName(serveItem.getName());
+        serveSync.setServeItemImg(serveItem.getImg());
+        serveSync.setServeItemSortNum(serveItem.getSortNum());
+        serveSync.setUnit(serveItem.getUnit());
+        serveSync.setDetailImg(serveItem.getDetailImg());
+        serveSync.setPrice(serve.getPrice());
+
+        serveSync.setCityCode(region.getCityCode());
+        serveSync.setId(serve.getId());
+        serveSync.setIsHot(serve.getIsHot());
+        serveSyncMapper.insert(serveSync);
+    }
+
 }
