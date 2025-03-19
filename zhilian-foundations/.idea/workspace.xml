@@ -4,36 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b0e2575-9e1f-4d7e-802c-3849de70a278" name="Changes" comment="创建foundations工程">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="7b0e2575-9e1f-4d7e-802c-3849de70a278" name="Changes" comment="重构工程">
+      <change beforePath="$PROJECT_DIR$/../zhilian-customer/src/main/java/com/zhilian/customer/service/impl/EvaluationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../zhilian-customer/src/main/java/com/zhilian/customer/service/impl/EvaluationServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zhilian-framework/zhilian-canal-sync/target/zhilian-canal-sync-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../zhilian-framework/zhilian-canal-sync/target/zhilian-canal-sync-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zhilian-framework/zhilian-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../zhilian-framework/zhilian-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zhilian-framework/zhilian-common/target/zhilian-common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../zhilian-framework/zhilian-common/target/zhilian-common-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zhilian-framework/zhilian-es/target/zhilian-es-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../zhilian-framework/zhilian-es/target/zhilian-es-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zhilian-framework/zhilian-knife4j-web/target/zhilian-knife4j-web-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../zhilian-framework/zhilian-knife4j-web/target/zhilian-knife4j-web-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zhilian-framework/zhilian-mvc/target/zhilian-mvc-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../zhilian-framework/zhilian-mvc/target/zhilian-mvc-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zhilian-framework/zhilian-mysql/target/classes/com/zhilian/mysql/config/MybatisPlusConfiguration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zhilian-framework/zhilian-mysql/target/classes/com/zhilian/mysql/config/PageHelperConfiguration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zhilian-framework/zhilian-mysql/target/classes/com/zhilian/mysql/constants/DbFiledConstants.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zhilian-framework/zhilian-mysql/target/classes/com/zhilian/mysql/interceptor/MyBatisAutoFillInterceptor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zhilian-framework/zhilian-mysql/target/classes/com/zhilian/mysql/properties/MybatisPlusProperties$Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zhilian-framework/zhilian-mysql/target/classes/com/zhilian/mysql/properties/MybatisPlusProperties.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zhilian-framework/zhilian-mysql/target/classes/com/zhilian/mysql/utils/PageHelperUtils$QueryExecutor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zhilian-framework/zhilian-mysql/target/classes/com/zhilian/mysql/utils/PageHelperUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zhilian-framework/zhilian-mysql/target/classes/com/zhilian/mysql/utils/PageUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zhilian-framework/zhilian-mysql/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../zhilian-framework/zhilian-mysql/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zhilian-framework/zhilian-mysql/target/zhilian-mysql-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../zhilian-framework/zhilian-mysql/target/zhilian-mysql-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zhilian-framework/zhilian-rabbitmq/target/zhilian-rabbitmq-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../zhilian-framework/zhilian-rabbitmq/target/zhilian-rabbitmq-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zhilian-framework/zhilian-redis/target/zhilian-redis-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../zhilian-framework/zhilian-redis/target/zhilian-redis-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zhilian-framework/zhilian-seata/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../zhilian-framework/zhilian-seata/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zhilian-framework/zhilian-seata/target/zhilian-seata-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../zhilian-framework/zhilian-seata/target/zhilian-seata-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zhilian-framework/zhilian-statemachine/target/zhilian-statemachine-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../zhilian-framework/zhilian-statemachine/target/zhilian-statemachine-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zhilian-framework/zhilian-thirdparty/target/zhilian-thirdparty-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../zhilian-framework/zhilian-thirdparty/target/zhilian-thirdparty-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zhilian-framework/zhilian-xxl-job/target/zhilian-xxl-job-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../zhilian-framework/zhilian-xxl-job/target/zhilian-xxl-job-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zhilian-publics/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../zhilian-publics/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zhilian-publics/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../zhilian-publics/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhilian/foundations/FoundationsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zhilian/foundations/FoundationsApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhilian/foundations/constants/RedisConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zhilian/foundations/constants/RedisConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhilian/foundations/service/IServeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zhilian/foundations/service/IServeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhilian/foundations/service/impl/RegionServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zhilian/foundations/service/impl/RegionServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhilian/foundations/service/impl/ServeItemServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zhilian/foundations/service/impl/ServeItemServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhilian/foundations/service/impl/ServeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zhilian/foundations/service/impl/ServeServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +20,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -91,7 +75,7 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "Spring Boot.FoundationsApplication.executor": "Run",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "dev__chenhuan__01",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/A-Project/ZhiLian-Academy/zhilian-customer",
@@ -103,7 +87,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.29089028",
-    "settings.editor.selected.configurable": "MavenSettings",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.importing",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -134,7 +118,8 @@
       <updated>1742270875087</updated>
       <workItem from="1742270876177" duration="1555000" />
       <workItem from="1742273528389" duration="645000" />
-      <workItem from="1742284689904" duration="2758000" />
+      <workItem from="1742284689904" duration="7238000" />
+      <workItem from="1742354089469" duration="1190000" />
     </task>
     <task id="LOCAL-00001" summary="api包修正">
       <option name="closed" value="true" />
@@ -160,7 +145,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742271821612</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="重构工程">
+      <option name="closed" value="true" />
+      <created>1742289564039</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1742289564039</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,7 +164,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="dev_chenhuan_01" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -181,7 +186,8 @@
     <MESSAGE value="api包修正" />
     <MESSAGE value="gateway修正" />
     <MESSAGE value="创建foundations工程" />
-    <option name="LAST_COMMIT_MESSAGE" value="创建foundations工程" />
+    <MESSAGE value="重构工程" />
+    <option name="LAST_COMMIT_MESSAGE" value="重构工程" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

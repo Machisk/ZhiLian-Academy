@@ -8,6 +8,7 @@ import com.baomidou.mybatisplus.core.toolkit.Wrappers;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.zhilian.common.expcetions.ForbiddenOperationException;
 import com.zhilian.common.model.PageResult;
+import com.zhilian.foundations.constants.RedisConstants;
 import com.zhilian.foundations.enums.FoundationStatusEnum;
 import com.zhilian.foundations.mapper.RegionMapper;
 import com.zhilian.foundations.mapper.ServeItemMapper;
@@ -22,6 +23,7 @@ import com.zhilian.foundations.service.IServeService;
 import com.zhilian.mysql.utils.PageHelperUtils;
 import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.cache.annotation.CachePut;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -114,6 +116,7 @@ public class ServeServiceImpl extends ServiceImpl<ServeMapper, Serve> implements
 
     @Override
     @Transactional
+    @CachePut(value = RedisConstants.CacheName.SERVE, key = "#id",  cacheManager = RedisConstants.CacheManager.ONE_DAY)
     public Serve onSale(Long id){
         Serve serve = baseMapper.selectById(id);
         if(ObjectUtil.isNull(serve)){
@@ -149,6 +152,7 @@ public class ServeServiceImpl extends ServiceImpl<ServeMapper, Serve> implements
 
     @Override
     @Transactional
+    @CacheEvict(value = RedisConstants.CacheName.SERVE, key = "#id")
     public Serve offSale(Long id){
         Serve serve = baseMapper.selectById(id);
         if(ObjectUtil.isNull(serve)){
@@ -215,4 +219,9 @@ public class ServeServiceImpl extends ServiceImpl<ServeMapper, Serve> implements
         return baseMapper.selectCount(queryWrapper);
     }
 
+    @Cacheable(value = RedisConstants.CacheName.SERVE , key = "#id")
+    @Override
+    public Serve queryServeByIdCache(Long id) {
+        return getById(id);
+    }
 }
