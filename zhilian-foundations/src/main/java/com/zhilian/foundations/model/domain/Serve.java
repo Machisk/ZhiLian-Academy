@@ -9,12 +9,6 @@ import java.io.Serializable;
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
-/**
- * <p>
- *
- * </p>
- *
- */
 @Data
 @EqualsAndHashCode(callSuper = false)
 @Accessors(chain = true)

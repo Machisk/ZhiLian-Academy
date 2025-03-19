@@ -12,9 +12,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
 
-/**
- * @author itcast
- */
 @RestController("operationAgencyCertificationController")
 @RequestMapping("/operation/agency-certification")
 @Api(tags = "运营端 - 机构认证信息相关接口")

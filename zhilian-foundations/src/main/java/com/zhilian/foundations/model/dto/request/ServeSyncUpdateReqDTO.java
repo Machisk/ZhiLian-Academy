@@ -4,6 +4,7 @@ import lombok.Data;
 
 /**
  * 服务同步表更新
+ *
  **/
 @Data
 public class ServeSyncUpdateReqDTO {

@@ -43,11 +43,6 @@
             <artifactId>zhilian-knife4j-web</artifactId>
         </dependency>
 
-<!--        <dependency>-->
-<!--            <groupId>com.zhilian</groupId>-->
-<!--            <artifactId>zhilian-es</artifactId>-->
-<!--        </dependency>-->
-
         <!--单元测试-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -69,19 +64,33 @@
             <groupId>com.zhilian</groupId>
             <artifactId>zhilian-redis</artifactId>
         </dependency>
-<!--        <dependency>-->
-<!--            <groupId>com.zhilian</groupId>-->
-<!--            <artifactId>zhilian-canal-sync</artifactId>-->
-<!--        </dependency>-->
 
         <dependency>
             <groupId>com.zhilian</groupId>
             <artifactId>zhilian-mysql</artifactId>
         </dependency>
+
+        <!-- 使用google的Guava库实现布隆过滤器。 https://mvnrepository.com/artifact/com.google.guava/guava -->
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>28.2-jre</version>
+        </dependency>
+
         <dependency>
             <groupId>com.zhilian</groupId>
             <artifactId>zhilian-xxl-job</artifactId>
         </dependency>
+
+        <dependency>
+            <groupId>com.zhilian</groupId>
+            <artifactId>zhilian-canal-sync</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.zhilian</groupId>
+            <artifactId>zhilian-es</artifactId>
+        </dependency>
+
     </dependencies>
 
     <build>

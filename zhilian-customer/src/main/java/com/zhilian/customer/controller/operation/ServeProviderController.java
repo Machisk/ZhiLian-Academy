@@ -23,8 +23,6 @@ import javax.validation.constraints.NotNull;
  * 服务人员/机构相关接口
  * </p>
  *
- * @author itcast
- * @since 2023-07-03
  */
 @Validated
 @RestController("operationServeProviderController")

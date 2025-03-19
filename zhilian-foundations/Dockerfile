@@ -1,5 +1,5 @@
 FROM openjdk:11-jdk
-LABEL maintainer="智联学堂"
+LABEL maintainer="研究院研发组 <research-maint@itcast.cn>"
 RUN echo "Asia/Shanghai" > /etc/timezone
 ARG PACKAGE_PATH=./target/zhilian-foundations.jar
 

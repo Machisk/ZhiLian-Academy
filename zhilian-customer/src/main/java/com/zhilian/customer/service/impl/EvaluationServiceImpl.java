@@ -442,7 +442,7 @@ public class EvaluationServiceImpl implements EvaluationService {
      * @return 评价配置信息
      */
     @Override
-    @Cacheable(value = "JZ_CACHE", key = "'ALL_EVALUATION_CONFIG'", cacheManager = "cacheManagerOneDay")
+    @Cacheable(value = "ZL_CACHE", key = "'ALL_EVALUATION_CONFIG'", cacheManager = "cacheManagerOneDay")
     public AllEvaluationSystemInfoResDTO findAllSystemInfo(CurrentUserInfo currentUserInfo) {
         //查询服务项配置信息
         EvaluationSystemInfoResDTO serveItemSystemInfo = findSystemInfo(evaluationProperties.getServeItem().getTargetTypeId(), currentUserInfo);

@@ -4,6 +4,7 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.zhilian.api.foundations.dto.response.ServeItemResDTO;
 import com.zhilian.api.foundations.dto.response.ServeTypeCategoryResDTO;
 import com.zhilian.foundations.model.domain.ServeItem;
+import com.zhilian.foundations.model.domain.ServeType;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
 

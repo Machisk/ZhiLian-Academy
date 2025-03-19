@@ -13,9 +13,6 @@ import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
 
-/**
- * @author itcast
- */
 @RestController("operationWorkerCertificationAuditController")
 @RequestMapping("/operation/worker-certification-audit")
 @Api(tags = "运营端 - 服务人员认证审核相关接口")
