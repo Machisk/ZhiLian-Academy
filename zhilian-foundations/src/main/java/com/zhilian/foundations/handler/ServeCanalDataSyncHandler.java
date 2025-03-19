@@ -6,10 +6,7 @@ import com.zhilian.foundations.constants.IndexConstants;
 import com.zhilian.foundations.model.domain.ServeSync;
 import org.springframework.amqp.core.ExchangeTypes;
 import org.springframework.amqp.core.Message;
-import org.springframework.amqp.rabbit.annotation.Exchange;
-import org.springframework.amqp.rabbit.annotation.Queue;
-import org.springframework.amqp.rabbit.annotation.QueueBinding;
-import org.springframework.amqp.rabbit.annotation.RabbitListener;
+import org.springframework.amqp.rabbit.annotation.*;
 import org.springframework.stereotype.Component;
 
 import javax.annotation.Resource;
@@ -26,8 +23,7 @@ public class ServeCanalDataSyncHandler extends AbstractCanalRabbitMqMsgListener<
     private ElasticSearchTemplate elasticSearchTemplate;
 
     @RabbitListener(bindings = @QueueBinding(
-            value = @Queue(name = "canal-mq-zhilian-foundations"),
-            exchange = @Exchange(name = "exchange.canal-zhilian", type = ExchangeTypes.TOPIC),
+            value = @Queue(name = "canal-mq-jzo2o-foundations",arguments={@Argument(name="x-single-active-consumer", value = "true", type = "java.lang.Boolean") }),            exchange = @Exchange(name = "exchange.canal-zhilian", type = ExchangeTypes.TOPIC),
             key = "canal-mq-zhilian-foundations"),
             concurrency = "1"
     )
