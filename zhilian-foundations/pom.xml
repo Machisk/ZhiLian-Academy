@@ -78,10 +78,10 @@
             <groupId>com.zhilian</groupId>
             <artifactId>zhilian-mysql</artifactId>
         </dependency>
-<!--        <dependency>-->
-<!--            <groupId>com.zhilian</groupId>-->
-<!--            <artifactId>zhilian-xxl-job</artifactId>-->
-<!--        </dependency>-->
+        <dependency>
+            <groupId>com.zhilian</groupId>
+            <artifactId>zhilian-xxl-job</artifactId>
+        </dependency>
     </dependencies>
 
     <build>
