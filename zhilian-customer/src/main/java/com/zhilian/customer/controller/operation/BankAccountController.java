@@ -12,9 +12,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
 
-/**
- * @author itcast
- */
 @RestController("operationBankAccountController")
 @RequestMapping("/operation/bank-account")
 @Api(tags = "运营端 - 银行账户信息相关接口")

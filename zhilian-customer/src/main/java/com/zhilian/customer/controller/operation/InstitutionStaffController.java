@@ -19,8 +19,6 @@ import javax.annotation.Resource;
  * 运营端 - 机构下属服务人员相关接口
  * </p>
  *
- * @author itcast
- * @since 2023-07-03
  */
 @Validated
 @RestController("operationInstitutionStaffController")

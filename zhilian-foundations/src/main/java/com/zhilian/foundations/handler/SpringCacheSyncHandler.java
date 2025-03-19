@@ -39,7 +39,7 @@ public class SpringCacheSyncHandler {
         log.info(">>>>>>>>开始进行缓存同步，更新已启用区域");
 
         //删除缓存
-        Boolean delete = redisTemplate.delete(RedisConstants.CacheName.JZ_CACHE + "::ACTIVE_REGIONS");
+        Boolean delete = redisTemplate.delete(RedisConstants.CacheName.ZL_CACHE + "::ACTIVE_REGIONS");
 
         //通过查询开通区域列表进行缓存
         List<RegionSimpleResDTO> regionSimpleResDTOS = regionService.queryActiveRegionList();
