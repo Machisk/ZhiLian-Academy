@@ -61,8 +61,12 @@ public class ServeAggregationServiceImpl implements ServeAggregationService {
             bool.must(must->
                     must.term(term->
                             term.field("city_code").value(cityCode)));
-            //todo 匹配服务类型
-
+            //todo匹配服务类型
+            if(ObjectUtils.isNotEmpty(serveTypeId)){
+                bool.must(must->
+                        must.term(term->
+                                term.field("serve_type_id").value(serveTypeId)));
+            }
             //匹配关键字
             if(ObjectUtils.isNotEmpty(keyword)){
                 bool.must(must->
