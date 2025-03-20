@@ -10,6 +10,7 @@
         <module name="zhilian-mysql" />
         <module name="zhilian-redis" />
         <module name="zhilian-xxl-job" />
+        <module name="zhilian-orders" />
         <module name="zhilian-es" />
         <module name="zhilian-sentinel" />
         <module name="zhilian-mvc" />

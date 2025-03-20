@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>zhilian-orders</artifactId>
+        <groupId>com.zhilian</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>zhilian-orders-base</artifactId>
+
+    <properties>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.zhilian</groupId>
+            <artifactId>zhilian-common</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.zhilian</groupId>
+            <artifactId>zhilian-mysql</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.zhilian</groupId>
+            <artifactId>zhilian-redis</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.zhilian</groupId>
+            <artifactId>zhilian-shardingsphere-jdbc</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.zhilian</groupId>
+            <artifactId>zhilian-api</artifactId>
+            <exclusions>
+                <exclusion>
+                    <groupId>com.alibaba.cloud</groupId>
+                    <artifactId>spring-cloud-alibaba-sentinel</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>com.zhilian</groupId>
+            <artifactId>zhilian-canal-sync</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.zhilian</groupId>
+            <artifactId>zhilian-statemachine</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <!--seata-->
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-seata</artifactId>
+            <exclusions>
+                <!--版本较低，1.4.2，因此排除-->
+                <exclusion>
+                    <artifactId>seata-spring-boot-starter</artifactId>
+                    <groupId>io.seata</groupId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <artifactId>seata-spring-boot-starter</artifactId>
+            <groupId>io.seata</groupId>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.antlr</groupId>
+                    <artifactId>antlr4</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>org.antlr</groupId>
+            <artifactId>antlr</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.zhilian</groupId>
+            <artifactId>zhilian-mvc</artifactId>
+        </dependency>
+    </dependencies>
+
+</project>

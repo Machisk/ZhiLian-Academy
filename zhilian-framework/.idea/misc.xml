@@ -20,6 +20,7 @@
         <option value="$PROJECT_DIR$/zhilian-statemachine/pom.xml" />
         <option value="$PROJECT_DIR$/zhilian-thirdparty/pom.xml" />
         <option value="$PROJECT_DIR$/zhilian-xxl-job/pom.xml" />
+        <option value="$PROJECT_DIR$/../zhilian-orders/pom.xml" />
       </list>
     </option>
   </component>

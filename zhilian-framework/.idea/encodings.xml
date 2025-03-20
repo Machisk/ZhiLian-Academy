@@ -31,5 +31,7 @@
     <file url="file://$PROJECT_DIR$/zhilian-thirdparty/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/zhilian-xxl-job/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/zhilian-xxl-job/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../zhilian-orders/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../zhilian-orders/src/main/resources" charset="UTF-8" />
   </component>
 </project>
