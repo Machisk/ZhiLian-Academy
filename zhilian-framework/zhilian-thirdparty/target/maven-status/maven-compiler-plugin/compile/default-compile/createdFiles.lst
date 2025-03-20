@@ -1,0 +1,12 @@
+com\zhilian\thirdparty\amap\AmapMapServiceImpl.class
+com\zhilian\thirdparty\config\AutoConfig.class
+com\zhilian\thirdparty\ali\properties\AliOssProperties.class
+com\zhilian\thirdparty\core\storage\StorageService.class
+com\zhilian\thirdparty\core\map\MapService.class
+com\zhilian\thirdparty\core\wechat\WechatService.class
+com\zhilian\thirdparty\tencent\WechatServiceImpl.class
+com\zhilian\thirdparty\tencent\properties\WechatProperties.class
+com\zhilian\thirdparty\dto\MapLocationDTO.class
+com\zhilian\thirdparty\amap\properties\AmapProperties.class
+com\zhilian\thirdparty\dto\MapLocationDTO$MapLocationDTOBuilder.class
+com\zhilian\thirdparty\ali\AliOssStorageServiceImpl.class

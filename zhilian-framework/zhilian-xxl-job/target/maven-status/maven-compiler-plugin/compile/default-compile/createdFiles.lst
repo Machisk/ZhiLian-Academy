@@ -1,0 +1,4 @@
+com\zhilian\xxl\job\properties\XxlJobProperties.class
+com\zhilian\xxl\job\properties\XxlJobProperties$Executor.class
+com\zhilian\xxl\job\properties\XxlJobProperties$Admin.class
+com\zhilian\xxl\job\config\XxlJobConfiguration.class

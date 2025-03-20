@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="zhilian-common-1.0-SNAPSHOT (2)">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/zhilian-mysql/src/main/resources/lib/zhilian-common-1.0-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

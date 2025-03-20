@@ -1,0 +1,14 @@
+D:\sourcetree-git\project\zhilian-framework\zhilian-statemachine\src\main\java\com\zhilian\statemachine\snapshot\BizSnapshotService.java
+D:\sourcetree-git\project\zhilian-framework\zhilian-statemachine\src\main\java\com\zhilian\statemachine\AbstractStateMachine.java
+D:\sourcetree-git\project\zhilian-framework\zhilian-statemachine\src\main\java\com\zhilian\statemachine\core\StatusChangeEvent.java
+D:\sourcetree-git\project\zhilian-framework\zhilian-statemachine\src\main\java\com\zhilian\statemachine\model\BizSnapshot.java
+D:\sourcetree-git\project\zhilian-framework\zhilian-statemachine\src\main\java\com\zhilian\statemachine\config\StateConfiguration.java
+D:\sourcetree-git\project\zhilian-framework\zhilian-statemachine\src\main\java\com\zhilian\statemachine\core\StateMachineSnapshot.java
+D:\sourcetree-git\project\zhilian-framework\zhilian-statemachine\src\main\java\com\zhilian\statemachine\mapper\StateMachineMapper.java
+D:\sourcetree-git\project\zhilian-framework\zhilian-statemachine\src\main\java\com\zhilian\statemachine\core\StatusChangeHandler.java
+D:\sourcetree-git\project\zhilian-framework\zhilian-statemachine\src\main\java\com\zhilian\statemachine\snapshot\BizSnapshotServiceImpl.java
+D:\sourcetree-git\project\zhilian-framework\zhilian-statemachine\src\main\java\com\zhilian\statemachine\mapper\BizSnapshotMapper.java
+D:\sourcetree-git\project\zhilian-framework\zhilian-statemachine\src\main\java\com\zhilian\statemachine\core\StatusDefine.java
+D:\sourcetree-git\project\zhilian-framework\zhilian-statemachine\src\main\java\com\zhilian\statemachine\model\StatePersister.java
+D:\sourcetree-git\project\zhilian-framework\zhilian-statemachine\src\main\java\com\zhilian\statemachine\persist\StateMachinePersisterImpl.java
+D:\sourcetree-git\project\zhilian-framework\zhilian-statemachine\src\main\java\com\zhilian\statemachine\persist\StateMachinePersister.java

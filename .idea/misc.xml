@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/zhilian-api/pom.xml" />
+        <option value="$PROJECT_DIR$/zhilian-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/zhilian-publics/pom.xml" />
+        <option value="$PROJECT_DIR$/zhilian-customer/pom.xml" />
+        <option value="$PROJECT_DIR$/zhilian-framework/zhilian-es/pom.xml" />
+        <option value="$PROJECT_DIR$/zhilian-framework/zhilian-mvc/pom.xml" />
+        <option value="$PROJECT_DIR$/zhilian-framework/zhilian-mysql/pom.xml" />
+        <option value="$PROJECT_DIR$/zhilian-framework/zhilian-redis/pom.xml" />
+        <option value="$PROJECT_DIR$/zhilian-framework/zhilian-seata/pom.xml" />
+        <option value="$PROJECT_DIR$/zhilian-framework/zhilian-common/pom.xml" />
+        <option value="$PROJECT_DIR$/zhilian-framework/zhilian-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/zhilian-framework/zhilian-xxl-job/pom.xml" />
+        <option value="$PROJECT_DIR$/zhilian-framework/zhilian-rabbitmq/pom.xml" />
+        <option value="$PROJECT_DIR$/zhilian-framework/zhilian-sentinel/pom.xml" />
+        <option value="$PROJECT_DIR$/zhilian-framework/zhilian-canal-sync/pom.xml" />
+        <option value="$PROJECT_DIR$/zhilian-framework/zhilian-thirdparty/pom.xml" />
+        <option value="$PROJECT_DIR$/zhilian-framework/zhilian-knife4j-web/pom.xml" />
+        <option value="$PROJECT_DIR$/zhilian-framework/zhilian-statemachine/pom.xml" />
+        <option value="$PROJECT_DIR$/zhilian-framework/zhilian-shardingsphere-jdbc/pom.xml" />
+        <option value="$PROJECT_DIR$/zhilian-foundations/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

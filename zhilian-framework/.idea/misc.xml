@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/zhilian-framework/pom.xml" />
+        <option value="$PROJECT_DIR$/zhilian-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/zhilian-canal-sync/pom.xml" />
+        <option value="$PROJECT_DIR$/zhilian-common/pom.xml" />
+        <option value="$PROJECT_DIR$/zhilian-es/pom.xml" />
+        <option value="$PROJECT_DIR$/zhilian-knife4j-web/pom.xml" />
+        <option value="$PROJECT_DIR$/zhilian-mvc/pom.xml" />
+        <option value="$PROJECT_DIR$/zhilian-mysql/pom.xml" />
+        <option value="$PROJECT_DIR$/zhilian-rabbitmq/pom.xml" />
+        <option value="$PROJECT_DIR$/zhilian-redis/pom.xml" />
+        <option value="$PROJECT_DIR$/zhilian-seata/pom.xml" />
+        <option value="$PROJECT_DIR$/zhilian-sentinel/pom.xml" />
+        <option value="$PROJECT_DIR$/zhilian-shardingsphere-jdbc/pom.xml" />
+        <option value="$PROJECT_DIR$/zhilian-statemachine/pom.xml" />
+        <option value="$PROJECT_DIR$/zhilian-thirdparty/pom.xml" />
+        <option value="$PROJECT_DIR$/zhilian-xxl-job/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

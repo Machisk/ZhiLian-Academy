@@ -1,0 +1,12 @@
+D:\sourcetree-git\project\zhilian-framework\zhilian-rabbitmq\src\main\java\com\zhilian\rabbitmq\client\RabbitClient.java
+D:\sourcetree-git\project\zhilian-framework\zhilian-rabbitmq\src\main\java\com\zhilian\rabbitmq\dao\FailMsgDao.java
+D:\sourcetree-git\project\zhilian-framework\zhilian-rabbitmq\src\main\java\com\zhilian\rabbitmq\dao\impl\FailMsgDaoImpl.java
+D:\sourcetree-git\project\zhilian-framework\zhilian-rabbitmq\src\main\java\com\zhilian\rabbitmq\plugins\RabbitMqResender.java
+D:\sourcetree-git\project\zhilian-framework\zhilian-rabbitmq\src\main\java\com\zhilian\rabbitmq\plugins\DelayMessagePostProcessor.java
+D:\sourcetree-git\project\zhilian-framework\zhilian-rabbitmq\src\main\java\com\zhilian\rabbitmq\plugins\RabbitMqListenableFutureCallback.java
+D:\sourcetree-git\project\zhilian-framework\zhilian-rabbitmq\src\main\java\com\zhilian\rabbitmq\dao\mapper\FailMsgMapper.java
+D:\sourcetree-git\project\zhilian-framework\zhilian-rabbitmq\src\main\java\com\zhilian\rabbitmq\domain\FailMsg.java
+D:\sourcetree-git\project\zhilian-framework\zhilian-rabbitmq\src\main\java\com\zhilian\rabbitmq\plugins\ErrorMessageRecoverer.java
+D:\sourcetree-git\project\zhilian-framework\zhilian-rabbitmq\src\main\java\com\zhilian\rabbitmq\properties\RabbitmqProperties.java
+D:\sourcetree-git\project\zhilian-framework\zhilian-rabbitmq\src\main\java\com\zhilian\rabbitmq\config\RabbitMqConfiguration.java
+D:\sourcetree-git\project\zhilian-framework\zhilian-rabbitmq\src\main\java\com\zhilian\rabbitmq\domain\ErrorRabbitMqMessage.java
