@@ -12,7 +12,9 @@ import co.elastic.clients.elasticsearch.core.SearchRequest;
 import co.elastic.clients.elasticsearch.core.SearchResponse;
 import co.elastic.clients.elasticsearch.core.search.Hit;
 import com.baomidou.mybatisplus.core.toolkit.ObjectUtils;
+import com.zhilian.api.foundations.dto.response.ServeAggregationResDTO;
 import com.zhilian.common.expcetions.ElasticSearchException;
+import com.zhilian.common.utils.BeanUtils;
 import com.zhilian.common.utils.LambdaUtils;
 import com.zhilian.es.core.ElasticSearchTemplate;
 import com.zhilian.es.utils.SearchResponseUtils;
@@ -25,10 +27,7 @@ import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.List;
+import java.util.*;
 import java.util.stream.Collectors;
 
 /**
@@ -98,6 +97,17 @@ public class ServeAggregationServiceImpl implements ServeAggregationService {
         }
         return  Collections.emptyList();
 
+    }
+
+    @Override
+    public ServeAggregationResDTO findById(Long id) {
+        //根据id查询服务有关信息
+        ServeAggregation serveAggregation = elasticSearchTemplate.opsForDoc().findById(IndexConstants.SERVE, id, ServeAggregation.class);
+        //如果搜索成功返回结果
+        if (com.zhilian.common.utils.ObjectUtils.isNotEmpty(serveAggregation)) {
+            return BeanUtils.copyProperties(serveAggregation, ServeAggregationResDTO.class);
+        }
+        return null;
     }
 
 }

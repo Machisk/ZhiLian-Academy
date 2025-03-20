@@ -5,15 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3bedd69c-6a14-47ec-831d-4d59dbcec99c" name="Changes" comment="创建订单下单工程">
+      <change afterPath="$PROJECT_DIR$/../zhilian-foundations/src/main/java/com/zhilian/foundations/controller/inner/InnerServeController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../zhilian-foundations/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../zhilian-foundations/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zhilian-framework/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../zhilian-framework/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zhilian-framework/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../zhilian-framework/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zhilian-framework/.idea/libraries/Maven__com_stoyanr_evictor_1_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zhilian-framework/.idea/libraries/Maven__io_github_openfeign_feign_httpclient_11_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zhilian-framework/.idea/libraries/Maven__io_projectreactor_addons_reactor_extra_3_4_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zhilian-framework/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_loadbalancer_3_1_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zhilian-framework/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_loadbalancer_3_1_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zhilian-foundations/src/main/java/com/zhilian/foundations/service/ServeAggregationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../zhilian-foundations/src/main/java/com/zhilian/foundations/service/ServeAggregationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zhilian-foundations/src/main/java/com/zhilian/foundations/service/impl/ServeAggregationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../zhilian-foundations/src/main/java/com/zhilian/foundations/service/impl/ServeAggregationServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zhilian-orders/zhilian-orders-manager/src/main/java/com/zhilian/orders/manager/service/impl/client/ServeClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../zhilian-orders/zhilian-orders-manager/src/main/java/com/zhilian/orders/manager/service/impl/client/ServeClient.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +85,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/A-Project/ZhiLian-Academy/Backend/zhilian-api",
+    "last_opened_file_path": "D:/A-Project/ZhiLian-Academy/Backend/zhilian-customer",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -126,6 +123,7 @@
       <workItem from="1742271437897" duration="112000" />
       <workItem from="1742442750175" duration="4362000" />
       <workItem from="1742447608731" duration="122000" />
+      <workItem from="1742472667609" duration="3252000" />
     </task>
     <task id="LOCAL-00001" summary="重构zhilian-common包，增加机构角色">
       <option name="closed" value="true" />

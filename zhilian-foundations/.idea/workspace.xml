@@ -4,21 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6532f65f-84c0-4770-bb24-e20ddaf17d0b" name="Changes" comment="">
+    <list default="true" id="6532f65f-84c0-4770-bb24-e20ddaf17d0b" name="Changes" comment="es匹配服务类型">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhilian/foundations/controller/inner/InnerServeController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../zhilian-api/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../zhilian-api/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zhilian-framework/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../zhilian-framework/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zhilian-framework/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../zhilian-framework/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zhilian-framework/.idea/libraries/Maven__com_stoyanr_evictor_1_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zhilian-framework/.idea/libraries/Maven__io_github_openfeign_feign_httpclient_11_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zhilian-framework/.idea/libraries/Maven__io_projectreactor_addons_reactor_extra_3_4_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zhilian-framework/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_loadbalancer_3_1_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zhilian-framework/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_loadbalancer_3_1_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhilian/foundations/service/ServeAggregationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zhilian/foundations/service/ServeAggregationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhilian/foundations/service/impl/ServeAggregationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zhilian/foundations/service/impl/ServeAggregationServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zhilian-orders/zhilian-orders-manager/src/main/java/com/zhilian/orders/manager/service/impl/client/ServeClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../zhilian-orders/zhilian-orders-manager/src/main/java/com/zhilian/orders/manager/service/impl/client/ServeClient.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -68,7 +72,7 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/A-Project/ZhiLian-Academy/Backend/zhilian-foundations",
+    "last_opened_file_path": "D:/A-Project/ZhiLian-Academy/Backend/zhilian-api",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -117,9 +121,22 @@
       <workItem from="1742441490245" duration="1251000" />
       <workItem from="1742447608139" duration="80000" />
     </task>
+    <task id="LOCAL-00001" summary="es匹配服务类型">
+      <option name="closed" value="true" />
+      <created>1742476100735</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1742476100735</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="es匹配服务类型" />
+    <option name="LAST_COMMIT_MESSAGE" value="es匹配服务类型" />
   </component>
 </project>

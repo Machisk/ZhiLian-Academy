@@ -1,5 +1,6 @@
 package com.zhilian.foundations.service;
 
+import com.zhilian.api.foundations.dto.response.ServeAggregationResDTO;
 import com.zhilian.foundations.model.dto.response.ServeSimpleResDTO;
 
 import java.util.List;
@@ -15,4 +16,12 @@ public interface ServeAggregationService {
      * @return 服务列表
      */
     List<ServeSimpleResDTO> findServeList(String cityCode, Long serveTypeId, String keyword);
+
+    /**
+     * 根据id查询服务聚合
+     *
+     * @param id 服务聚合id
+     * @return 服务聚合
+     */
+    ServeAggregationResDTO findById(Long id);
 }
