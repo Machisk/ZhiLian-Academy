@@ -10,17 +10,21 @@
         <module name="zhilian-mysql" />
         <module name="zhilian-redis" />
         <module name="zhilian-xxl-job" />
-        <module name="zhilian-orders" />
+        <module name="zhilian-orders-base" />
+        <module name="zhilian-orders-history" />
+        <module name="zhilian-orders-manager" />
         <module name="zhilian-es" />
         <module name="zhilian-sentinel" />
         <module name="zhilian-mvc" />
         <module name="zhilian-seata" />
+        <module name="zhilian-orders-seize" />
         <module name="zhilian-statemachine" />
         <module name="zhilian-canal-sync" />
         <module name="zhilian-rabbitmq" />
         <module name="zhilian-common" />
         <module name="zhilian-shardingsphere-jdbc" />
         <module name="zhilian-knife4j-web" />
+        <module name="zhilian-orders-dispatch" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="22" />
@@ -33,6 +37,11 @@
       <module name="zhilian-knife4j-web" options="-parameters" />
       <module name="zhilian-mvc" options="-parameters" />
       <module name="zhilian-mysql" options="-parameters" />
+      <module name="zhilian-orders-base" options="-parameters" />
+      <module name="zhilian-orders-dispatch" options="-parameters" />
+      <module name="zhilian-orders-history" options="-parameters" />
+      <module name="zhilian-orders-manager" options="-parameters" />
+      <module name="zhilian-orders-seize" options="-parameters" />
       <module name="zhilian-rabbitmq" options="-parameters" />
       <module name="zhilian-redis" options="-parameters" />
       <module name="zhilian-seata" options="-parameters" />

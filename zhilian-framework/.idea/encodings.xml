@@ -33,5 +33,10 @@
     <file url="file://$PROJECT_DIR$/zhilian-xxl-job/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../zhilian-orders/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../zhilian-orders/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../zhilian-orders/zhilian-orders-base/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../zhilian-orders/zhilian-orders-dispatch/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../zhilian-orders/zhilian-orders-history/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../zhilian-orders/zhilian-orders-manager/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../zhilian-orders/zhilian-orders-seize/src/main/java" charset="UTF-8" />
   </component>
 </project>

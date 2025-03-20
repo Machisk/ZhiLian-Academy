@@ -5,202 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6532f65f-84c0-4770-bb24-e20ddaf17d0b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/ApifoxUploaderProjectSetting.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zhilian-api/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../zhilian-api/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhilian/foundations/FoundationsApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhilian/foundations/config/JwtConfiguration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhilian/foundations/config/SecurityConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhilian/foundations/constants/IndexConstants.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhilian/foundations/constants/RedisConstants.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhilian/foundations/controller/agency/RegionController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhilian/foundations/controller/consumer/RegionController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhilian/foundations/controller/inner/InnerRegionController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhilian/foundations/controller/inner/InnerServeItemController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhilian/foundations/controller/inner/InnerServeTypeController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhilian/foundations/controller/open/LoginController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhilian/foundations/controller/operation/ConfigRegionController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhilian/foundations/controller/operation/RegionController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhilian/foundations/controller/operation/ServeController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhilian/foundations/controller/operation/ServeItemController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhilian/foundations/controller/operation/ServeTypeController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhilian/foundations/controller/worker/RegionController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhilian/foundations/controller/worker/ServeTypeController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhilian/foundations/enums/FoundationStatusEnum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhilian/foundations/handler/SpringCacheSyncHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhilian/foundations/mapper/CityDirectoryMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhilian/foundations/mapper/ConfigRegionMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhilian/foundations/mapper/OperatorMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhilian/foundations/mapper/RegionMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhilian/foundations/mapper/ServeItemMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhilian/foundations/mapper/ServeMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhilian/foundations/mapper/ServeSyncMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhilian/foundations/mapper/ServeTypeMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhilian/foundations/model/domain/CityDirectory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhilian/foundations/model/domain/ConfigRegion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhilian/foundations/model/domain/Operator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhilian/foundations/model/domain/Region.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhilian/foundations/model/domain/Serve.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhilian/foundations/model/domain/ServeAggregation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhilian/foundations/model/domain/ServeItem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhilian/foundations/model/domain/ServeSync.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhilian/foundations/model/domain/ServeType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhilian/foundations/model/dto/OperatorAddDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhilian/foundations/model/dto/request/ConfigRegionSetReqDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhilian/foundations/model/dto/request/LoginReqDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhilian/foundations/model/dto/request/RegionPageQueryReqDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhilian/foundations/model/dto/request/RegionUpsertReqDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhilian/foundations/model/dto/request/ServeItemPageQueryReqDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhilian/foundations/model/dto/request/ServeItemUpsertReqDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhilian/foundations/model/dto/request/ServePageQueryReqDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhilian/foundations/model/dto/request/ServeSyncUpdateReqDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhilian/foundations/model/dto/request/ServeTypePageQueryReqDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhilian/foundations/model/dto/request/ServeTypeUpsertReqDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhilian/foundations/model/dto/request/ServeUpsertReqDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhilian/foundations/model/dto/response/CityResDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhilian/foundations/model/dto/response/ConfigRegionResDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhilian/foundations/model/dto/response/LoginResDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhilian/foundations/model/dto/response/RegionDisplayResDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhilian/foundations/model/dto/response/RegionResDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhilian/foundations/model/dto/response/RegionSimpleResDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhilian/foundations/model/dto/response/ServeAggregationSimpleResDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhilian/foundations/model/dto/response/ServeAggregationTypeSimpleResDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhilian/foundations/model/dto/response/ServeCategoryResDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhilian/foundations/model/dto/response/ServeResDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhilian/foundations/model/dto/response/ServeSimpleResDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhilian/foundations/model/dto/response/ServeTypeResDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhilian/foundations/properties/ApplicaitonProperties.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhilian/foundations/service/IConfigRegionService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhilian/foundations/service/ILoginService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhilian/foundations/service/IOperatorService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhilian/foundations/service/IRegionService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhilian/foundations/service/IServeItemService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhilian/foundations/service/IServeService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhilian/foundations/service/IServeSyncService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhilian/foundations/service/IServeTypeService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhilian/foundations/service/impl/ConfigRegionServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhilian/foundations/service/impl/LoginServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhilian/foundations/service/impl/OperatorServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhilian/foundations/service/impl/RegionServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhilian/foundations/service/impl/ServeItemServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhilian/foundations/service/impl/ServeServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhilian/foundations/service/impl/ServeSyncServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhilian/foundations/service/impl/ServeTypeServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/bootstrap-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/bootstrap-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/bootstrap-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/bootstrap-prod.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/bootstrap-test.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/bootstrap-test.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/CityDirectoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/CityDirectoryMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/ConfigRegionMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/ConfigRegionMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/OperatorMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/OperatorMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/RegionMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/RegionMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/ServeItemMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/ServeItemMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/ServeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/ServeMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/ServeSyncMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/ServeSyncMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/ServeTypeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/ServeTypeMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bootstrap-dev.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bootstrap-prod.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bootstrap-test.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bootstrap.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhilian/foundations/FoundationsApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhilian/foundations/config/JwtConfiguration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhilian/foundations/config/SecurityConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhilian/foundations/constants/IndexConstants.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhilian/foundations/constants/RedisConstants$CacheManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhilian/foundations/constants/RedisConstants$CacheName.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhilian/foundations/constants/RedisConstants$Ttl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhilian/foundations/constants/RedisConstants.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhilian/foundations/controller/agency/RegionController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhilian/foundations/controller/consumer/RegionController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhilian/foundations/controller/inner/InnerRegionController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhilian/foundations/controller/inner/InnerServeItemController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhilian/foundations/controller/inner/InnerServeTypeController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhilian/foundations/controller/open/LoginController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhilian/foundations/controller/operation/ConfigRegionController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhilian/foundations/controller/operation/RegionController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhilian/foundations/controller/operation/ServeController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhilian/foundations/controller/operation/ServeItemController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhilian/foundations/controller/operation/ServeTypeController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhilian/foundations/controller/worker/RegionController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhilian/foundations/controller/worker/ServeTypeController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhilian/foundations/enums/FoundationStatusEnum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhilian/foundations/mapper/CityDirectoryMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhilian/foundations/mapper/ConfigRegionMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhilian/foundations/mapper/OperatorMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhilian/foundations/mapper/RegionMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhilian/foundations/mapper/ServeItemMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhilian/foundations/mapper/ServeMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhilian/foundations/mapper/ServeSyncMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhilian/foundations/mapper/ServeTypeMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhilian/foundations/model/domain/CityDirectory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhilian/foundations/model/domain/ConfigRegion$ConfigRegionBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhilian/foundations/model/domain/ConfigRegion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhilian/foundations/model/domain/Operator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhilian/foundations/model/domain/Region.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhilian/foundations/model/domain/Serve.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhilian/foundations/model/domain/ServeAggregation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhilian/foundations/model/domain/ServeItem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhilian/foundations/model/domain/ServeSync.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhilian/foundations/model/domain/ServeType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhilian/foundations/model/dto/OperatorAddDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhilian/foundations/model/dto/request/ConfigRegionSetReqDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhilian/foundations/model/dto/request/LoginReqDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhilian/foundations/model/dto/request/RegionPageQueryReqDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhilian/foundations/model/dto/request/RegionUpsertReqDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhilian/foundations/model/dto/request/ServeItemPageQueryReqDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhilian/foundations/model/dto/request/ServeItemUpsertReqDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhilian/foundations/model/dto/request/ServePageQueryReqDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhilian/foundations/model/dto/request/ServeSyncUpdateReqDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhilian/foundations/model/dto/request/ServeTypePageQueryReqDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhilian/foundations/model/dto/request/ServeTypeUpsertReqDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhilian/foundations/model/dto/request/ServeUpsertReqDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhilian/foundations/model/dto/response/CityResDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhilian/foundations/model/dto/response/ConfigRegionResDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhilian/foundations/model/dto/response/LoginResDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhilian/foundations/model/dto/response/RegionDisplayResDTO$RegionDisplayResDTOBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhilian/foundations/model/dto/response/RegionDisplayResDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhilian/foundations/model/dto/response/RegionResDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhilian/foundations/model/dto/response/RegionSimpleResDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhilian/foundations/model/dto/response/ServeAggregationSimpleResDTO$ServeAggregationSimpleResDTOBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhilian/foundations/model/dto/response/ServeAggregationSimpleResDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhilian/foundations/model/dto/response/ServeAggregationTypeSimpleResDTO$ServeAggregationTypeSimpleResDTOBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhilian/foundations/model/dto/response/ServeAggregationTypeSimpleResDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhilian/foundations/model/dto/response/ServeCategoryResDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhilian/foundations/model/dto/response/ServeResDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhilian/foundations/model/dto/response/ServeSimpleResDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhilian/foundations/model/dto/response/ServeTypeResDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhilian/foundations/properties/ApplicaitonProperties.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhilian/foundations/service/IConfigRegionService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhilian/foundations/service/ILoginService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhilian/foundations/service/IOperatorService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhilian/foundations/service/IRegionService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhilian/foundations/service/IServeItemService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhilian/foundations/service/IServeService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhilian/foundations/service/IServeSyncService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhilian/foundations/service/IServeTypeService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhilian/foundations/service/impl/ConfigRegionServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhilian/foundations/service/impl/LoginServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhilian/foundations/service/impl/OperatorServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhilian/foundations/service/impl/RegionServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhilian/foundations/service/impl/ServeItemServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhilian/foundations/service/impl/ServeServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhilian/foundations/service/impl/ServeSyncServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhilian/foundations/service/impl/ServeTypeServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/CityDirectoryMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/ConfigRegionMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/OperatorMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/RegionMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/ServeItemMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/ServeMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/ServeSyncMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/ServeTypeMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zhilian-foundations-startup.bat" beforeDir="false" afterPath="$PROJECT_DIR$/zhilian-foundations-startup.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zhilian-framework/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../zhilian-framework/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zhilian-framework/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../zhilian-framework/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zhilian-framework/.idea/libraries/Maven__com_stoyanr_evictor_1_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zhilian-framework/.idea/libraries/Maven__io_github_openfeign_feign_httpclient_11_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zhilian-framework/.idea/libraries/Maven__io_projectreactor_addons_reactor_extra_3_4_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zhilian-framework/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_loadbalancer_3_1_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zhilian-framework/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_loadbalancer_3_1_4.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -210,18 +23,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Machisk"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Machisk&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "git@github.com:Machisk/ZhiLian-Academy.git",
-    "accountId": "36215fbd-7e9b-4c1a-8956-abd16e088de6"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:Machisk/ZhiLian-Academy.git&quot;,
+    &quot;accountId&quot;: &quot;36215fbd-7e9b-4c1a-8956-abd16e088de6&quot;
   }
-}]]></component>
+}</component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -241,9 +54,9 @@
     <option name="jreName" value="22" />
     <option name="skipTests" value="true" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2uWz1BFtjlubZT2kRoZmoRoWueQ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -252,10 +65,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "dev__chenhuan__01",
+    "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/A-Project/ZhiLian-Academy/zhilian-foundations",
+    "last_opened_file_path": "D:/A-Project/ZhiLian-Academy/Backend/zhilian-foundations",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -301,6 +114,8 @@
       <option name="presentableId" value="Default" />
       <updated>1742378900412</updated>
       <workItem from="1742378901482" duration="787000" />
+      <workItem from="1742441490245" duration="1251000" />
+      <workItem from="1742447608139" duration="80000" />
     </task>
     <servers />
   </component>
