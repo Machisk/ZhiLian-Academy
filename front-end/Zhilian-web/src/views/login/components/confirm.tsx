@@ -1,9 +1,8 @@
 import { useNavigate } from 'react-router';
-import { Button } from './components/ui/button';
-import { Checkbox } from './components/ui/checkbox';
-import { Label } from './components/ui/label';
+import { Checkbox } from '@/components/ui/checkbox';
+import { Label } from '@/components/ui/label';
 import { useState } from 'react';
-import { RainbowButton } from './components/magicui/rainbow-button';
+import { RainbowButton } from '@/components/magicui/rainbow-button';
 
 const Confirm = () => {
   const nav = useNavigate();

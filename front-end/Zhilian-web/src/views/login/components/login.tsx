@@ -1,4 +1,4 @@
-import { MagicCard } from './components/magicui/magic-card';
+import { MagicCard } from '@/components/magicui/magic-card';
 import {
   Card,
   CardContent,
@@ -7,12 +7,12 @@ import {
   CardHeader,
   CardTitle
 } from '@/components/ui/card';
-import { Label } from './components/ui/label';
-import { Button } from './components/ui/button';
-import { Input } from './components/ui/input';
+import { Label } from '@/components/ui/label';
+import { Button } from '@/components/ui/button';
+import { Input } from '@/components/ui/input';
 import { useNavigate } from 'react-router';
 import { useState } from 'react';
-import { BorderBeam } from './components/magicui/border-beam';
+import { BorderBeam } from '@/components/magicui/border-beam';
 
 const Login = () => {
   const nav = useNavigate();
