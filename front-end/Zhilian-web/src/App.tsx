@@ -1,13 +1,13 @@
-import { Button } from './components/ui/button'
-
+import { RouterProvider } from 'react-router';
+import router from './router/index';
+import MainPage from './views/main';
 
 function App() {
   return (
     <>
-      <Button>123</Button>
-      <h1>Vite + React</h1>
+      <RouterProvider router={router}></RouterProvider>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
