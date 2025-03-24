@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import topBar from './topbar';
 import { Outlet, useSearchParams } from 'react-router';
 import Login from '../login/components/login';
 import Confirm from '../login/components/confirm';
@@ -22,7 +21,6 @@ const MainPageLayout: React.FC = () => {
     for (const [key, value] of searchParams.entries()) {
       params[key] = value === 'true';
     }
-
     // 如果params为空对象，使用默认状态
     if (Object.keys(params).length === 0) {
       setRoleState({
