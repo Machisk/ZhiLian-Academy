@@ -14,7 +14,7 @@ import { useNavigate } from 'react-router';
 import { useState } from 'react';
 import { BorderBeam } from '@/components/magicui/border-beam';
 
-const Login = () => {
+const Register = () => {
   const nav = useNavigate();
 
   interface UserInfo {
@@ -24,16 +24,15 @@ const Login = () => {
 
   const [userInfo, setUserInfo] = useState<UserInfo>({ username: '', password: '' });
 
-  const logIn = () => {};
+  const register = () => {};
 
   const handelRegister = () => {
     nav('/login/register');
   };
   const handelLogin = () => {
-    window.localStorage.setItem('token', '123');
     console.log(userInfo);
-    logIn();
-    nav('/');
+    register();
+    nav('/login');
   };
 
   return (
@@ -41,7 +40,7 @@ const Login = () => {
       <Card className="relative overflow-hidden w-2/3 h-[300px] p-0">
         <MagicCard className="w-full h-[300px] p-10" gradientColor={'#D9D9D955'}>
           <CardHeader>
-            <CardTitle>Login</CardTitle>
+            <CardTitle>Register</CardTitle>
             <CardDescription>Enter your credentials to access your account</CardDescription>
           </CardHeader>
           <CardContent>
@@ -81,7 +80,7 @@ const Login = () => {
           </CardContent>
           <CardFooter>
             <Button onClick={handelRegister}>注册</Button>
-            <Button onClick={handelLogin}>登录</Button>
+            <Button onClick={handelLogin}>已有账号？</Button>
           </CardFooter>
         </MagicCard>
         <BorderBeam
@@ -100,4 +99,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default Register;

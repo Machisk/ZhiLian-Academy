@@ -5,8 +5,17 @@ import Confirm from '../login/components/confirm';
 import Ablitity from './content/ablitity';
 import Help from './content/help';
 import Commerce from './content/commerce';
+import useNav from '@/hooks/useNav';
+import useAuth from '@/hooks/useAuth';
+import CustomDock from './dock/Dock';
+import { BoxReveal } from '@/components/magicui/box-reveal';
+import { Button } from '@/components/ui/button';
+import MarqueeDemo from './content/demo';
 
 const MainPageLayout: React.FC = () => {
+  const nav = useNav();
+  const auth = useAuth();
+
   const [searchParams, setSearchParams] = useSearchParams();
   const [roleState, setRoleState] = useState({
     ablitity: false,
@@ -15,6 +24,10 @@ const MainPageLayout: React.FC = () => {
   });
 
   const [showDefault, setShowDefault] = useState(false);
+
+  useEffect(() => {
+    if (!auth.isAuth()) nav.navToWithoutAuth('/login');
+  }, []);
 
   useEffect(() => {
     const params = {};
@@ -40,13 +53,47 @@ const MainPageLayout: React.FC = () => {
   return (
     <>
       <div>
+        <div className="size-full max-w-lg items-center justify-center overflow-hidden pt-8">
+          <BoxReveal boxColor={'#5046e6'} duration={0.5}>
+            <p className="text-[3.5rem] font-semibold">
+              Magic UI<span className="text-[#5046e6]">.</span>
+            </p>
+          </BoxReveal>
+
+          <BoxReveal boxColor={'#5046e6'} duration={0.5}>
+            <h2 className="mt-[.5rem] text-[1rem]">
+              UI library for <span className="text-[#5046e6]">Design Engineers</span>
+            </h2>
+          </BoxReveal>
+
+          <BoxReveal boxColor={'#5046e6'} duration={0.5}>
+            <div className="mt-6">
+              <p>
+                -&gt; 20+ free and open-source animated components built with
+                <span className="font-semibold text-[#5046e6]">React</span>,
+                <span className="font-semibold text-[#5046e6]">Typescript</span>,
+                <span className="font-semibold text-[#5046e6]">Tailwind CSS</span>, and
+                <span className="font-semibold text-[#5046e6]">Motion</span>
+                . <br />
+                -&gt; 100% open-source, and customizable. <br />
+              </p>
+            </div>
+          </BoxReveal>
+
+          <BoxReveal boxColor={'#5046e6'} duration={0.5}>
+            <Button className="mt-[1.6rem] bg-[#5046e6]">Explore</Button>
+          </BoxReveal>
+        </div>
+
+        <MarqueeDemo></MarqueeDemo>
+
         {showDefault && <Help></Help>}
         {roleState.ablitity && <Ablitity></Ablitity>}
         {roleState.help && <Help></Help>}
         {roleState.com && <Commerce></Commerce>}
-        <Login></Login>
-        <Confirm></Confirm>
         <Outlet></Outlet>
+
+        <CustomDock></CustomDock>
       </div>
     </>
   );

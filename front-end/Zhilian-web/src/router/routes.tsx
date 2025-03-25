@@ -1,8 +1,10 @@
 import { Button } from '@/components/ui/button';
 import Unconnection from '@/views/404';
+import Chat from '@/views/chat';
 import LogInView from '@/views/login';
 import Confirm from '@/views/login/components/confirm';
 import Login from '@/views/login/components/login';
+import Register from '@/views/login/components/register';
 import MainPageLayout from '@/views/main';
 import TopBar from '@/views/main/topbar';
 import { RouteObject } from 'react-router';
@@ -20,15 +22,20 @@ const routes: RouteObject[] = [
     ]
   },
   {
+    path: '/chat',
+    element: <Chat></Chat>
+  },
+  {
     path: '/login',
     element: <LogInView></LogInView>,
     children: [
       { index: true, element: <Login /> },
+      { path: 'register', element: <Register /> },
       { path: 'confirm', element: <Confirm /> }
     ]
-  },
-  { path: '/404', element: <Unconnection></Unconnection> },
-  { path: '*', element: <Navigate to="/404"></Navigate> }
+  }
+  // { path: '/404', element: <Unconnection></Unconnection> },
+  // { path: '*', element: <Navigate to="/404"></Navigate> }
 ];
 
 export default routes;
