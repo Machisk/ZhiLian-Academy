@@ -52,11 +52,11 @@ const MainPageLayout: React.FC = () => {
 
   return (
     <>
-      <div>
-        <div className="size-full max-w-lg items-center justify-center overflow-hidden pt-8">
+      <div className="flex flex-col m-auto w-2/3 h-full p-2 bg-amber-100">
+        <div className="size-full max-w-lg items-center justify-center overflow-hidden pt-8 p-3">
           <BoxReveal boxColor={'#5046e6'} duration={0.5}>
             <p className="text-[3.5rem] font-semibold">
-              Magic UI<span className="text-[#5046e6]">.</span>
+              Title<span className="text-[#5046e6]">.</span>
             </p>
           </BoxReveal>
 
@@ -80,21 +80,21 @@ const MainPageLayout: React.FC = () => {
             </div>
           </BoxReveal>
 
-          <BoxReveal boxColor={'#5046e6'} duration={0.5}>
+          {/* <BoxReveal boxColor={'#5046e6'} duration={0.5}>
             <Button className="mt-[1.6rem] bg-[#5046e6]">Explore</Button>
-          </BoxReveal>
+          </BoxReveal> */}
         </div>
-
-        <MarqueeDemo></MarqueeDemo>
-
+        <div className=" border-t-2 pt-2">
+          <MarqueeDemo></MarqueeDemo>
+        </div>
+        se
         {showDefault && <Help></Help>}
         {roleState.ablitity && <Ablitity></Ablitity>}
         {roleState.help && <Help></Help>}
         {roleState.com && <Commerce></Commerce>}
         <Outlet></Outlet>
-
-        <CustomDock></CustomDock>
       </div>
+      <CustomDock></CustomDock>
     </>
   );
 };

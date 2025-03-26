@@ -8,7 +8,7 @@ export type IconProps = React.HTMLAttributes<SVGElement>;
 
 export default function CustomDock() {
   return (
-    <div className="relative">
+    <div className="fixed left-1/2 top-5/6 -translate-x-1/2 ">
       <Dock direction="middle">
         <DockIcon>
           <Icons.gitHub className="size-6" />

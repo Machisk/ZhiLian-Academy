@@ -1,5 +1,6 @@
 import { cn } from '@/lib/utils';
 import { Marquee } from '@/components/magicui/marquee';
+import { Button } from '@/components/ui/button';
 
 const reviews = [
   {
@@ -66,6 +67,9 @@ const ReviewCard = ({
     >
       <div className="flex flex-row items-center gap-2">
         <img className="rounded-full" width="32" height="32" alt="" src={img} />
+        <div>
+          <img src="" alt="zheshitupian" />
+        </div>
         <div className="flex flex-col">
           <figcaption className="text-sm font-medium dark:text-white">{name}</figcaption>
           <p className="text-xs font-medium dark:text-white/40">{username}</p>
@@ -79,12 +83,37 @@ const ReviewCard = ({
 export default function MarqueeDemo() {
   return (
     <div className="relative flex w-full flex-col items-center justify-center overflow-hidden">
+      <div className="flex flex-row justify-between items-center w-full pl-4 pr-4">
+        <div>最新</div>
+        <div>
+          <Button>查看详细</Button>
+        </div>
+      </div>
+
       <Marquee pauseOnHover className="[--duration:20s]">
         {firstRow.map((review) => (
           <ReviewCard key={review.username} {...review} />
         ))}
       </Marquee>
-      <Marquee reverse pauseOnHover className="[--duration:20s]">
+
+      <Marquee pauseOnHover className="[--duration:20s]">
+        {firstRow.map((review) => (
+          <ReviewCard key={review.username} {...review} />
+        ))}
+      </Marquee>
+
+      <div className="flex flex-row justify-between items-center w-full pl-4 pr-4">
+        <div>热门</div>
+        <div>
+          <Button>查看详细</Button>
+        </div>
+      </div>
+      <Marquee pauseOnHover className="[--duration:20s]">
+        {secondRow.map((review) => (
+          <ReviewCard key={review.username} {...review} />
+        ))}
+      </Marquee>
+      <Marquee pauseOnHover className="[--duration:20s]">
         {secondRow.map((review) => (
           <ReviewCard key={review.username} {...review} />
         ))}
