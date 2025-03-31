@@ -38,17 +38,21 @@ const Login = () => {
 
   return (
     <div>
-      <Card className="relative overflow-hidden w-2/3 h-[300px] p-0">
-        <MagicCard className="w-full h-[300px] p-10" gradientColor={'#D9D9D955'}>
+      <Card className="relative overflow-hidden w-[500px] h-auto p-0">
+        <MagicCard className="w-full h-auto p-10" gradientColor={'#D9D9D955'}>
           <CardHeader>
-            <CardTitle>Login</CardTitle>
-            <CardDescription>Enter your credentials to access your account</CardDescription>
+            <CardTitle className="text-2xl p-2">登录</CardTitle>
+            <CardDescription className="text-1xl pb-2">
+              Enter your credentials to access your account
+            </CardDescription>
           </CardHeader>
           <CardContent>
             <form>
               <div className="grid gap-4">
-                <div className="grid gap-2">
-                  <Label htmlFor="username">username</Label>
+                <div className="grid gap-2 text-2xl">
+                  <Label htmlFor="username" className=" text-2xl">
+                    username
+                  </Label>
                   <Input
                     id="username"
                     type="username"
@@ -63,7 +67,9 @@ const Login = () => {
                   />
                 </div>
                 <div className="grid gap-2">
-                  <Label htmlFor="password">Password</Label>
+                  <Label htmlFor="password" className=" text-2xl ">
+                    Password
+                  </Label>
                   <Input
                     id="password"
                     type="password"
@@ -80,8 +86,14 @@ const Login = () => {
             </form>
           </CardContent>
           <CardFooter>
-            <Button onClick={handelRegister}>注册</Button>
-            <Button onClick={handelLogin}>登录</Button>
+            <div className="pt-3 flex w-full  justify-around">
+              <Button className="w-1/3" onClick={handelRegister}>
+                注册
+              </Button>
+              <Button className="w-1/3" onClick={handelLogin}>
+                登录
+              </Button>
+            </div>
           </CardFooter>
         </MagicCard>
         <BorderBeam
