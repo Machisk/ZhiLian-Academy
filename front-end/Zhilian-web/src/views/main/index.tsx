@@ -11,6 +11,7 @@ import CustomDock from './dock/Dock';
 import { BoxReveal } from '@/components/magicui/box-reveal';
 import { Button } from '@/components/ui/button';
 import MarqueeDemo from './content/demo';
+import ShowCard from '../detail/components/card';
 
 const MainPageLayout: React.FC = () => {
   const nav = useNav();
@@ -58,24 +59,23 @@ const MainPageLayout: React.FC = () => {
             <p className="text-[3.5rem] font-semibold">
               Title<span className="text-[#5046e6]">.</span>
             </p>
+            <ShowCard />
           </BoxReveal>
 
           <BoxReveal boxColor={'#5046e6'} duration={0.5}>
-            <h2 className="mt-[.5rem] text-[1rem]">
-              UI library for <span className="text-[#5046e6]">Design Engineers</span>
-            </h2>
+            <h2 className="mt-[.5rem] text-[1rem]">不止集市、不止表白墙</h2>
           </BoxReveal>
 
           <BoxReveal boxColor={'#5046e6'} duration={0.5}>
             <div className="mt-6">
               <p>
-                -&gt; 20+ free and open-source animated components built with
-                <span className="font-semibold text-[#5046e6]">React</span>,
-                <span className="font-semibold text-[#5046e6]">Typescript</span>,
-                <span className="font-semibold text-[#5046e6]">Tailwind CSS</span>, and
-                <span className="font-semibold text-[#5046e6]">Motion</span>
-                . <br />
-                -&gt; 100% open-source, and customizable. <br />
+                -&gt;在这里享受一站式全服务的校园圈子 <br />
+                <span className="font-semibold text-[#5046e6]">找学长</span>,
+                <span className="font-semibold text-[#5046e6]">找帮手</span>,
+                <span className="font-semibold text-[#5046e6]">赚外快</span>
+                <span className="font-semibold text-[#5046e6]">问学业</span>
+                <span className="font-semibold text-[#5046e6]">买/卖二手</span>
+                <br />
               </p>
             </div>
           </BoxReveal>
@@ -87,7 +87,6 @@ const MainPageLayout: React.FC = () => {
         <div className=" border-t-2 pt-2">
           <MarqueeDemo></MarqueeDemo>
         </div>
-        se
         {showDefault && <Help></Help>}
         {roleState.ablitity && <Ablitity></Ablitity>}
         {roleState.help && <Help></Help>}

@@ -3,23 +3,26 @@
 import React from 'react';
 
 import { Dock, DockIcon } from '@/components/magicui/dock';
+import useNav from '@/hooks/useNav';
 
 export type IconProps = React.HTMLAttributes<SVGElement>;
 
 export default function CustomDock() {
+  const nav = useNav();
+
   return (
     <div className="fixed left-1/2 top-5/6 -translate-x-1/2 ">
       <Dock direction="middle">
-        <DockIcon>
+        <DockIcon onClick={() => nav.navToWithAuth('main')}>
           <Icons.gitHub className="size-6" />
         </DockIcon>
-        <DockIcon>
+        <DockIcon onClick={() => nav.navToWithAuth('sub')}>
           <Icons.googleDrive className="size-6" />
         </DockIcon>
-        <DockIcon>
+        <DockIcon onClick={() => nav.navToWithoutAuth('third')}>
           <Icons.notion className="size-6" />
         </DockIcon>
-        <DockIcon>
+        <DockIcon onClick={() => nav.navToWithoutAuth('third')}>
           <Icons.whatsapp className="size-6" />
         </DockIcon>
       </Dock>
